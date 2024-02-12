@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    restart: unless-stopped
+    image: nodered/node-red:latest
+    volumes:
+      - ./app/data:/data
+    env_file:
+      - .env
+    ports:
+      - ${SERVE_PORT}:1880
