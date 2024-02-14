@@ -1,0 +1,10 @@
+.gitignore
+.dockerignore
+
+**/.idea
+**/.git
+**/.env
+**/*.md
+**/*.adoc
+**/node_modules
+**/docker-compose.*
