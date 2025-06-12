@@ -1,6 +1,11 @@
 .idea
 .env
 
-app/data/*
+app/data/node_modules
+app/data/.npm
+app/data/node-cert.pem
+app/data/node-key.pem
+app/data/store.json
+
 app/db/*
 !app/db/.gitkeep
